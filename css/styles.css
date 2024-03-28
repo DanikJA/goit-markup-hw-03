@@ -6,6 +6,7 @@ body{
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     background: var(--background-white);
+    width: 1600px;
 }
 
 :root {
@@ -35,6 +36,8 @@ body{
 .section-hero{
     background: var(--hero-color);
     width: 1600px;
+    height: 600px;
+    
  
 }
 
@@ -46,6 +49,7 @@ body{
         text-transform: uppercase;
         text-align: center;
         color: var(--background-white);
+        
 }
 
 .button {
@@ -63,6 +67,10 @@ body{
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
+    margin-top: 350px;
+    margin-right: auto;
+    margin-bottom: 200px;
+    margin-left: auto;
 }
 
 .title{
@@ -158,6 +166,7 @@ li {
 .footer {
     background: var(--hero-color);
     width: 1600px;
+    height: 252px;
 }
 
 .footer-address {
@@ -191,6 +200,35 @@ color: var(--background-white);
   font-family: "Raleway", sans-serif;
   color: var(--background-white);
 }
+
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 2px solid tomato;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                                            /* Portfolio HTML */
 
@@ -295,4 +333,7 @@ a {
 .site-nav .link {
     text-transform: capitalize
 }
+
+
+
 
