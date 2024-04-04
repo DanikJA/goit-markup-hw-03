@@ -38,10 +38,9 @@ body{
     width: 1600px;
     height: 600px;
     
- 
 }
 
-.typography{
+.typography {
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
@@ -49,28 +48,31 @@ body{
         text-transform: uppercase;
         text-align: center;
         color: var(--background-white);
+        padding-top: 200px;
+        margin-top: 0;
         
 }
 
 .button {
+    border: 1 px solid transparent;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
     text-align: center;
     color: var(--background-white);
-    width: 216px;
-    margin-left: auto;
-    margin-right: auto;
+    
     display: block;
     background-color: var(--blue);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
-    margin-top: 350px;
     margin-right: auto;
-    margin-bottom: 200px;
     margin-left: auto;
+    padding-top: 10px;
+    padding-right: 32px;
+    padding-bottom: 10px;
+    padding-left: 32px;
 }
 
 .title{
@@ -109,6 +111,9 @@ font-family: "Roboto", sans-serif;
         font-size: 36px;
         letter-spacing: 0.03em;
         text-align: center;
+        padding-bottom: 50px ;
+        margin-top: 118px;
+        margin-bottom: 50px;
         
 }
 
@@ -117,6 +122,9 @@ font-family: "Roboto", sans-serif;
         font-weight: 500;
         letter-spacing: 0.02em;
         color: var(--main-color);
+        padding-top: 32px;
+        padding-bottom: 32px;
+        
 }
 
 .site-nav .link.current {
@@ -134,6 +142,9 @@ letter-spacing: 0.02em;
     color:var(--grey-color);
     letter-spacing: 0.02em;
     font-weight: 500;
+    padding-top: 32px;
+   padding-bottom: 32px;
+   display: block;
 }
 
 .site-nav .link-mails:hover,
@@ -145,6 +156,7 @@ color:var(--blue);
     font-weight: 700;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+  
 }
 
 .feature-list .paragraph {
@@ -163,10 +175,16 @@ li {
     width: 1600px;
 }
 
+.bottom-section .subject{
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+
 .footer {
     background: var(--hero-color);
     width: 1600px;
     height: 252px;
+   
 }
 
 .footer-address {
@@ -189,17 +207,20 @@ color: var(--background-white);
 }
 
 .footer .studio-footer{
+    display: block;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
     letter-spacing: 0.03em;
     color: var(--blue);
+    padding-top: 60px;
 }
 
 .footer .studio-footer>span {
   font-family: "Raleway", sans-serif;
   color: var(--background-white);
 }
+
 
 .container{
     width: 1200px;
@@ -210,19 +231,68 @@ color: var(--background-white);
     margin-right: auto;
 }
 
+.page-header{
+    display: flex;
+}
+.site-nav{
+    display: flex;
+}
+.site-nav .link-last{
+    margin-right: 344px;
+}
+
+.site-nav .item:not(:last-child){
+    margin-right: 50px;
+}
+
+.feature-list .ul{
+    display: flex;
+}
+
+.feature-list li{
+    margin-right: 30px;
+}
+
+.section-images .images{
+    display: flex;
+    gap: 15px;
+}
+
+
+.bottom-section .subject-icon{
+    display: flex;
+    gap: 30px;
+
+}
+
+.bottom-section .subject {
+margin-top: 94px;
+margin-bottom: 50px;
+}
+
+.subject-icon {
+    margin: 0;
+}
 
 
 
 
 
 
+.main-nav{
+    display: flex;
+    align-items: center;
+ 
+}
 
 
-
-
-
-
-
+.main-nav .web-studio{
+    margin-right: 93px;
+    margin-left: 215px;
+}
+.site-nav .item{
+    margin-right: 208px;
+}
 
 
 
