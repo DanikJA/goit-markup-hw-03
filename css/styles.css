@@ -300,7 +300,7 @@ margin-bottom: 50px;
 
 
 
-                                           /* Portfolio HTML */
+                                             /* Portfolio HTML */   
 
  .links .navigation-first {
     font-family: "Roboto", sans-serif;
@@ -402,6 +402,42 @@ a {
 
 .site-nav .link {
     text-transform: capitalize
+}
+
+
+.button-section .links {
+   display: flex;
+   justify-content: center;
+   margin-right: 8px;
+   margin-top: 126px;
+
+}
+
+.button-section .links-li{
+    margin-right: 8px;
+}
+
+
+
+
+.button-section .tagline {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 50px;
+    gap: 30px;
+    
+}
+
+  .button-section .paragraph { 
+     margin-bottom: 30px; 
+     margin-right: 30px; 
+
+ } 
+
+img{
+    width: 370px;
 }
 
 
