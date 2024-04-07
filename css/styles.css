@@ -33,6 +33,7 @@ body{
     font-family: "Raleway", sans-serif;
 }
 
+
 .section-hero{
     background: var(--hero-color);
     width: 1600px;
@@ -221,12 +222,16 @@ color: var(--background-white);
   color: var(--background-white);
 }
 
+.footer .footer-ul {
+    display: block;
+    padding-left: 0px;
+}
+       
 
 .container{
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 2px solid tomato;
     margin-left: auto;
     margin-right: auto;
 }
@@ -249,35 +254,28 @@ color: var(--background-white);
     display: flex;
 }
 
+
+
+
+
+
 .feature-list li{
     margin-right: 30px;
 }
+
+.feature-list .title{
+    margin-top: 94px;
+}
+
+
+
+
+
 
 .section-images .images{
     display: flex;
     gap: 15px;
 }
-
-
-.bottom-section .subject-icon{
-    display: flex;
-    gap: 30px;
-
-}
-
-.bottom-section .subject {
-margin-top: 94px;
-margin-bottom: 50px;
-}
-
-.subject-icon {
-    margin: 0;
-}
-
-
-
-
-
 
 .main-nav{
     display: flex;
@@ -296,7 +294,23 @@ margin-bottom: 50px;
 
 
 
+   /* наша команда */
 
+  
+.bottom-section .subject-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+ .bottom-section .subject-li{
+    margin-right: 30px;
+ }
+
+ .bottom-section .img{
+    width: 270px;
+ }
 
 
 
