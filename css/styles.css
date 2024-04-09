@@ -9,6 +9,10 @@ body{
     width: 1600px;
 }
 
+ul{
+    margin: 0;
+    padding: 0;
+}
 :root {
 --main-color:#212121;
 --background-white:#fff;
@@ -37,7 +41,8 @@ body{
 .section-hero{
     background: var(--hero-color);
     width: 1600px;
-    height: 600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     
 }
 
@@ -49,9 +54,10 @@ body{
         text-transform: uppercase;
         text-align: center;
         color: var(--background-white);
-        padding-top: 200px;
         margin-top: 0;
-        
+        width: 696px;
+        margin-right: auto; 
+        margin-left: auto;   
 }
 
 .button {
@@ -148,23 +154,43 @@ letter-spacing: 0.02em;
    display: block;
 }
 
+.site-nav .link-mail{
+color: var(--grey-color);
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
+    margin-left: 344px;
+}
+
+
 .site-nav .link-mails:hover,
 .site-nav .link-mails:focus {
 color:var(--blue);
 }
 
+.site-nav .link-mail:hover,
+.site-nav .link-mail:focus {
+    color: var(--blue);
+}
+
+
 .feature-list .title {
     font-weight: 700;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-  
+    text-transform: uppercase; 
 }
+
+
 
 .feature-list .paragraph {
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--grey-color);
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 li {
@@ -238,25 +264,30 @@ color: var(--background-white);
 
 .page-header{
     display: flex;
+    align-items: center;
 }
 .site-nav{
     display: flex;
 }
-.site-nav .link-last{
-    margin-right: 344px;
+
+.header {
+border-bottom: 1px solid #ececec;
+width: 1600px;
+
 }
 
 .site-nav .item:not(:last-child){
     margin-right: 50px;
 }
 
+
+
 .feature-list .ul{
     display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
 }
-
-
-
-
 
 
 .feature-list li{
@@ -264,13 +295,18 @@ color: var(--background-white);
 }
 
 .feature-list .title{
-    margin-top: 94px;
+    margin-top: 0px;
 }
 
+.feature-list{
+    padding-top: 94px;
+    padding-bottom: 94px;
+  
+}
 
-
-
-
+.section-images .subject{
+    margin-top: 0px;
+}
 
 .section-images .images{
     display: flex;
@@ -280,17 +316,17 @@ color: var(--background-white);
 .main-nav{
     display: flex;
     align-items: center;
+
  
 }
 
 
 .main-nav .web-studio{
     margin-right: 93px;
-    margin-left: 215px;
+   
 }
-.site-nav .item{
-    margin-right: 208px;
-}
+
+
 
 
 
