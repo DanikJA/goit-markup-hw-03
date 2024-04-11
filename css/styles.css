@@ -472,7 +472,10 @@ a {
     text-decoration: none;
 }
 
-
+.button-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 .site-nav .link {
     text-transform: capitalize
@@ -483,15 +486,11 @@ a {
    display: flex;
    justify-content: center;
    margin-right: 8px;
-   margin-top: 126px;
-
 }
 
 .button-section .links-li{
     margin-right: 8px;
 }
-
-
 
 
 .button-section .tagline {
@@ -510,7 +509,20 @@ a {
 
  } 
 
+.links .navigation-first{
+    border-radius: 4px;
+        width: 73px;
+        height: 38px;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
+            background: #2196f3;
+}
 
+.links .navigation{
+    border-radius: 4px;
+        width: 125px;
+        height: 38px;
+        background: #f5f4fa;
+}
 
 
 
