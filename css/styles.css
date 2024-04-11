@@ -1,18 +1,30 @@
                               /* css for index.html */
 /* колір основного шрифту   color: #212121; */
 
+* {
+ margin: 0;
+ padding: 0;
+ list-style: 0;
+ box-sizing: border-box;
+}
+
+ul,h1,h2,h3,h4,h5,h6,p,li {
+    margin: 0;
+    padding: 0;
+}
+
+.site-second{
+    margin-left: auto;
+}
 body{
     color: var(--main-color);
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     background: var(--background-white);
-    width: 1600px;
+   
 }
 
-ul{
-    margin: 0;
-    padding: 0;
-}
+
 :root {
 --main-color:#212121;
 --background-white:#fff;
@@ -40,10 +52,8 @@ ul{
 
 .section-hero{
     background: var(--hero-color);
-    width: 1600px;
     padding-top: 200px;
-    padding-bottom: 200px;
-    
+    padding-bottom: 200px;  
 }
 
 .typography {
@@ -55,6 +65,7 @@ ul{
         text-align: center;
         color: var(--background-white);
         margin-top: 0;
+        margin-bottom: 30px;
         width: 696px;
         margin-right: auto; 
         margin-left: auto;   
@@ -118,9 +129,9 @@ font-family: "Roboto", sans-serif;
         font-size: 36px;
         letter-spacing: 0.03em;
         text-align: center;
-        padding-bottom: 50px ;
         margin-top: 118px;
         margin-bottom: 50px;
+        padding-bottom: 0;
         
 }
 
@@ -145,7 +156,7 @@ letter-spacing: 0.02em;
     color: var(--blue);
 }
 
-.site-nav .link-mails {
+.site-second .link-mails {
     color:var(--grey-color);
     letter-spacing: 0.02em;
     font-weight: 500;
@@ -154,26 +165,14 @@ letter-spacing: 0.02em;
    display: block;
 }
 
-.site-nav .link-mail{
-color: var(--grey-color);
-    letter-spacing: 0.02em;
-    font-weight: 500;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    display: block;
-    margin-left: 344px;
-}
 
 
-.site-nav .link-mails:hover,
-.site-nav .link-mails:focus {
+.site-second .link-mails:hover,
+.site-second .link-mails:focus {
 color:var(--blue);
 }
 
-.site-nav .link-mail:hover,
-.site-nav .link-mail:focus {
-    color: var(--blue);
-}
+
 
 
 .feature-list .title {
@@ -199,17 +198,15 @@ li {
 
 .bottom-section{
     background: var(--second-white);
-    width: 1600px;
 }
 
 .bottom-section .subject{
     padding-top: 94px;
-    padding-bottom: 50px;
+   
 }
 
 .footer {
     background: var(--hero-color);
-    width: 1600px;
     height: 252px;
    
 }
@@ -218,6 +215,14 @@ li {
         font-weight: 400;
         line-height: 1.71;
         letter-spacing: 0.03em;
+}
+
+.footer-address .address{
+padding-bottom: 9px;
+}
+
+.footer-ul .footer-li{
+    padding-bottom: 9px;
 }
 
 .footer .mail{
@@ -241,6 +246,7 @@ color: var(--background-white);
     letter-spacing: 0.03em;
     color: var(--blue);
     padding-top: 60px;
+    margin-bottom: 20px;
 }
 
 .footer .studio-footer>span {
@@ -265,19 +271,28 @@ color: var(--background-white);
 .page-header{
     display: flex;
     align-items: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 .site-nav{
     display: flex;
 }
 
+.site-second{
+    display: flex;
+}
+
 .header {
 border-bottom: 1px solid #ececec;
-width: 1600px;
 
 }
 
 .site-nav .item:not(:last-child){
     margin-right: 50px;
+}
+
+.site-second .item:not(:last-child){
+    margin-right:  50px;
 }
 
 
@@ -286,13 +301,20 @@ width: 1600px;
     display: flex;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-left: 0px;
+    padding: 0px;
 }
 
 
 .feature-list li{
     margin-right: 30px;
+    padding: 0;
+    width: 270px;
 }
+
+.feature-list li:last-child{
+    margin-right: 0;
+}
+
 
 .feature-list .title{
     margin-top: 0px;
@@ -304,20 +326,26 @@ width: 1600px;
   
 }
 
+.section-images{
+    padding-bottom: 94px;
+}
+
 .section-images .subject{
     margin-top: 0px;
 }
 
 .section-images .images{
     display: flex;
-    gap: 15px;
+    gap: 30px;
 }
 
 .main-nav{
     display: flex;
     align-items: center;
+}
 
- 
+.images .img {
+    display: block;
 }
 
 
@@ -326,12 +354,10 @@ width: 1600px;
    
 }
 
-
-
-
-
    /* наша команда */
-
+.bottom-section{
+    padding-bottom: 94px;
+}
   
 .bottom-section .subject-icon {
     display: flex;
@@ -344,9 +370,7 @@ width: 1600px;
     margin-right: 30px;
  }
 
- .bottom-section .img{
-    width: 270px;
- }
+
 
 
 
@@ -407,7 +431,7 @@ width: 1600px;
                                         /* Footer */
  .footer {
      background: var(--hero-color);
-     width: 1600px;
+    
  }
 
  .footer-address {
@@ -486,9 +510,6 @@ a {
 
  } 
 
-img{
-    width: 370px;
-}
 
 
 
