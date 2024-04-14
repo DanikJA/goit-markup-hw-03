@@ -203,7 +203,7 @@ li {
 }
 
 .footer-address .address{
-padding-bottom: 9px;
+margin-bottom: 9px;
 }
 
 .footer-ul .footer-li{
@@ -341,14 +341,10 @@ border-bottom: 1px solid #ececec;
   
 .bottom-section .subject-icon {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-right: 30px;
+    gap: 30px;
 }
 
- .bottom-section .subject-li:not(:last-child){
-    margin-right: 30px;
- }
+
 
  .bottom-section .img {
     display: block;
@@ -506,15 +502,15 @@ a {
 
 .links .navigation-first{
     border-radius: 4px;
-     padding: 6px 25px;
-        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
-            background: #2196f3;
+    padding: 6px 25px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
+    background: #2196f3;
 }
 
 .links .navigation{
     border-radius: 4px;
-       padding: 6px 22px;
-        background: #f5f4fa;
+    padding: 6px 22px;
+    background: #f5f4fa;
 }
 
 .tagline .img{
